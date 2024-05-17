@@ -1,22 +1,20 @@
 {
-    "id":  "dev.yofukashino.UnHypesquad",
-    "name":  "UnHypesquad",
-    "description":  "Choose Hypesquad House without questions",
-    "author":  {
-                   "discordID":  "1121961711080050780",
-                   "name":  "Nanakusa",
-                   "github":  "YofukashiNo"
-               },
-    "version":  "1.0.0",
-    "updater":  {
-                    "id":  "YofukashiNo/UnHypesquad",
-                    "type":  "github"
-                },
-    "license":  "MIT",
-    "type":  "replugged-plugin",
-    "renderer":  "src/index.ts",
-    "source":  "https://github.com/YofukashiNo/UnHypesquad",
-    "image":  [
-                  "https://i.imgur.com/14CNs3a.png?CHANGE-THIS-URL"
-              ]
+  "id": "dev.yofukashino.UnHypesquad",
+  "name": "UnHypesquad",
+  "description": "Choose Hypesquad House without questions",
+  "author": {
+    "discordID": "1121961711080050780",
+    "name": "Nanakusa",
+    "github": "YofukashiNo"
+  },
+  "version": "1.0.0",
+  "updater": {
+    "id": "dev.yofukashino.UnHypesquad",
+    "type": "store"
+  },
+  "license": "MIT",
+  "type": "replugged-plugin",
+  "renderer": "src/index.ts",
+  "source": "https://github.com/YofukashiNo/UnHypesquad",
+  "image": ["https://i.imgur.com/1uny92R.png", "https://i.imgur.com/osnTFJ7.png"]
 }

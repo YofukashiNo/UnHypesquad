@@ -1,0 +1,27 @@
+.hypesquadSelector-header {
+  padding-bottom: 1px;
+  box-shadow: none !important;
+}
+.hypesquadSelector-subHeader {
+  margin-top: 5px;
+}
+.hypesquadSelector-divider {
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+.hypesquadSelector-footer {
+  gap: 8px;
+}
+.leftHypesquad-header {
+  box-shadow: none !important;
+}
+.leftHypesquad-content {
+  gap: 16px;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+.leftHypesquad-image {
+  background-color: #5865f2;
+  border-radius: 50%;
+  padding: 20px;
+}
