@@ -1,8 +1,8 @@
 ### UnHypesquad
 
-Choose Hypesquad House without questions.
+Choose Hypesquad House without questions
 
-Option in Hypesquad Settings.
+Aswell as option to leave hypesquad altogether
 
 Direct Download Link: 
 [![dev.yofukashino.UnHypesquad.asar](https://img.shields.io/github/downloads/YofukashiNo/UnHypesquad/total.svg?style=social&label=Direct%20Download)](https://GitHub.com/YofukashiNo/UnHypesquad/releases/)
