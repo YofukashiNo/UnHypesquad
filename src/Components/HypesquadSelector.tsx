@@ -24,8 +24,8 @@ export default ({
     setSelectedHouse(house);
   }, [house]);
   const leaveHypesquad = async () => {
-    onClose();
     await Utils.leaveHypesquad();
+    onClose();
     ModalUtils.openModal((props) => <LeftHypesquad {...props} />);
   };
   return (
