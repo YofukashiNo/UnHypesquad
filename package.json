@@ -1,6 +1,6 @@
 {
   "name": "un-hypesquad",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Choose Hypesquad House without questions",
   "engines": {
     "node": ">=20.0.0",
