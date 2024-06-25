@@ -1,11 +1,10 @@
 import { util } from "replugged";
 import {
+  api as APIRequestUtils,
   fluxDispatcher as FluxDispatcher,
   constants,
-  api as APIRequestUtils,
 } from "replugged/common";
 import { PluginLogger } from "../index";
-import Modules from "./requiredModules";
 
 export const leaveHypesquad = async (): Promise<void> => {
   try {
