@@ -1,11 +1,15 @@
 import { util } from "replugged";
-import { fluxDispatcher as FluxDispatcher, constants } from "replugged/common";
+import {
+  fluxDispatcher as FluxDispatcher,
+  constants,
+  api as APIRequestUtils,
+} from "replugged/common";
 import { PluginLogger } from "../index";
 import Modules from "./requiredModules";
 
 export const leaveHypesquad = async (): Promise<void> => {
   try {
-    await Modules.APIRequestUtils.HTTP.del({
+    await APIRequestUtils.HTTP.del({
       url: constants.Endpoints.HYPESQUAD_ONLINE as string,
       oldFormErrors: !0,
     });

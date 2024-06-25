@@ -1,4 +1,4 @@
-import { flux as Flux, modal as ModalUtils, React } from "replugged/common";
+import { fluxHooks as FluxHooks, modal as ModalUtils, React } from "replugged/common";
 import { Button, Divider, Modal, Radio, Text } from "replugged/components";
 import { houses } from "../lib/consts";
 import Modules from "../lib/requiredModules";
@@ -14,7 +14,7 @@ export default ({
   onClose: () => void;
 }) => {
   const { HypeSquadStore } = Modules;
-  const { haveHouse } = Flux.useStateFromStores([HypeSquadStore], () => ({
+  const { haveHouse } = FluxHooks.useStateFromStores([HypeSquadStore], () => ({
     haveHouse: HypeSquadStore.getHouseMembership() != null,
   }));
   const [house, setHouse] = React.useState(
